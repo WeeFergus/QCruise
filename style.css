@@ -1,0 +1,329 @@
+/*
+Theme Name: Halcyon Child
+Theme URI: http://demos.reveldev.com/halcyon
+Author: reveldev
+Author URI: http://reveldev.com
+Description: A Multipurpose Blog Theme
+Template: halcyon-wp
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, responsive-layout, custom-colors, custom-header, custom-menu, featured-images, post-formats, translation-ready
+Text Domain: halcyon-child
+*/
+
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.25;  }
+
+h6 { border-bottom: 1px solid #e8e8e8; padding-bottom: 10px; margin-bottom: 10px;}
+
+.widget-title { font-size: 1.375em; letter-spacing: calc(1px / 1.5)!important; }
+
+.title-wrapper {  text-transform: none; margin-top: 40px; max-width: 1100px; margin: 0 auto;  width: 100%;}
+
+.logo-wrapper .title-wrapper { margin-top: 0; } 
+
+body, p { font-family: 'Open Sans', sans-serif; color: #737373; line-height: 1.5;}
+
+.spacer {display: block; clear: both; margin: 25px 0;}
+
+.page-header-archive h1 { font-weight: 100; letter-spacing: 1px;}
+
+ul.ubermenu-submenu > li > a { font-weight: normal !important; letter-spacing: 1px;}
+
+#menu-item-41 ul.ubermenu-submenu > li.ubermenu-item-level-1 > a { font-weight: bold !important; letter-spacing: 1px;}
+
+.heavy {font-weight: bold; color: red;}
+
+.ubermenu-skin-grey-white { border: none; background: none!important; }
+
+.spacer { width: !00%; display:block; margin: 20px 0; background-color: #e8e8e8; height: 1px;}
+
+ul#menu-footer-menu a {color: #fff;}
+
+ul#menu-footer-menu a:hover {text-transform: underline;}
+
+p.intro { padding: 4%; background-color: #f6f6f6;}
+
+.logo-wrapper { position: relative;}
+
+.margin-top-30 {margin-top:30px;}
+
+.page-header-archive h1 { margin: 0!important; font-size: 2em!important; text-align: left!important; font-weight: 100!important; letter-spacing: 1px!important; }
+
+.page-header .page-title { margin: 0!important; font-size: 2em!important; text-align: left!important; font-weight: 100!important; letter-spacing: 1px!important; }
+
+.page-header  {text-align: left; }
+
+.page-header-archive  {border: none;}
+
+.one_fourth { width: 24%; padding-right: 1%; }
+
+.one_half { width: 49%; padding-right: 1%}
+
+@media screen and (max-width: 640px) {
+.one_fourth, 
+.one_half { width: 48%; padding-right: 2%; }
+}
+
+@media screen and (max-width: 480px) {
+.one_fourth, 
+.one_half { width: 100%; }
+}
+
+
+.hometext { display: none;}
+.homeicon { display: inline-block;}
+
+@media screen and (max-width: 1024px) {
+.hometext { display: inline-block;}
+.homeicon { display: none;}
+}
+
+.divider {width: 100%; display: block; border-top: 1px solid #e3e3e3; margin: 20px 0; height: 1px;}
+
+/******** Header Review Count Fix ********/
+
+img.logo { margin-top: -20px!important;}
+
+#counting { display: block; width: 100%; float: left; text-align: center; padding: 0 4%; text-transform: uppercase; font-size: 14px; font-weight: 700; letter-spacing: 2px; margin-top: -35px;}
+
+@media screen and (max-width: 1024px) {
+img.logo { margin-top: 0!important;}
+#counting { display: none;}
+}
+
+#reviews img { display: block; margin: 0 auto;}
+
+
+/******** Posts ********/
+
+.grid-posts.masonry .post-grid-item {  margin-bottom: 20px; }
+
+
+#reviewCount { background: url(/wp-content/themes/halcyon-child/images/review-count-bkgnd.jpg) top left no-repeat; width: 292px; height: 77px; font-size: 28px; padding: 28px 0 0 48px; color: #fff; margin-top: 10px; position: absolute; right: 0; top: 20;}
+
+.easy-faq-body { margin-top:20px }
+
+ul.share  { display: none; }
+
+.sfsi_socialwpr { margin: 10px 0 20px 0; }
+
+.title-wrapper a, .post-entry h1 a, .post-entry h2 a, .post-entry h3 a, .post-entry h4 a, .post-entry h5 a, .post-entry h6 a, .comment-header 
+{ color: #000000;  letter-spacing: 1px; }
+
+.title-wrapper { text-transform: none!important; margin-top: 0!important;}
+
+.post-header .post-meta a { text-decoration: none; font-family: 'Open Sans', sans-serif; letter-spacing: .5px; font-size: .9em; }
+
+.pt-cv-pinterest.pt-cv-shadow .pt-cv-pinmas { -moz-box-shadow: none; -webkit-box-shadow: none; -khtml-box-shadow: none; box-shadow: none; }
+
+.pt-cv-pinterest .pt-cv-pinmas { border-top: none;}
+
+.padPost { display: block; padding: 0 5%;}
+
+.comment-form textarea { text-transform: none; }
+
+
+/******** Heroes ********/
+
+#hero { width: 100%; max-width: 1600px; margin: -50px auto 30px auto; text-align: center; height: 330px; padding-top: 130px;}
+
+#hero h1 { font-size: 2.2em; font-weight: 700; color: #000;}
+
+.northAmerica { background: url('/wp-content/themes/halcyon-child/images/hero-north-america.jpg')  top center no-repeat;   }
+
+.centralAmerica { background: url('/wp-content/themes/halcyon-child/images/hero-central-america.jpg')  top center no-repeat;   }
+
+.caribbeanIslands { background: url('/wp-content/themes/halcyon-child/images/hero-caribbean.jpg')  top center no-repeat;   }
+
+.southAmerica { background: url('/wp-content/themes/halcyon-child/images/hero-south-america.jpg')  top center no-repeat;   }
+
+.antarctica { background: url('/wp-content/themes/halcyon-child/images/hero-antarctica.jpg')  top center no-repeat;   }
+
+.europe { background: url('/wp-content/themes/halcyon-child/images/hero-europe.jpg')  top center no-repeat;   }
+
+.mediterranean { background: url('/wp-content/themes/halcyon-child/images/hero-mediterranean.jpg')  top center no-repeat;   }
+
+.africa { background: url('/wp-content/themes/halcyon-child/images/hero-africa.jpg')  top center no-repeat;   }
+
+.southwestAsia { background: url('/wp-content/themes/halcyon-child/images/hero-asia-south-western.jpg')  top center no-repeat;   }
+
+.eastAsia { background: url('/wp-content/themes/halcyon-child/images/hero-east-asia.jpg')  top center no-repeat;   }
+
+.southeastAsia { background: url('/wp-content/themes/halcyon-child/images/hero-southeast-asia.jpg')  top center no-repeat;   }
+
+.australia { background: url('/wp-content/themes/halcyon-child/images/hero-australia.jpg')  top center no-repeat;   }
+
+.pacificIslands { background: url('/wp-content/themes/halcyon-child/images/hero-pacific-islands.jpg')  top center no-repeat;   }
+
+.atlanticOcean { background: url('/wp-content/themes/halcyon-child/images/hero-atlantic-ocean.jpg')  top center no-repeat;   }
+
+.arcticRegions { background: url('/wp-content/themes/halcyon-child/images/hero-arctic-regions.jpg')  top center no-repeat;   }
+
+.newZealand { background: url('/wp-content/themes/halcyon-child/images/hero-new-zealand.jpg')  top center no-repeat;   }
+ 
+
+
+
+/******** Widgets ********/
+
+.halcyon-widget-about a { color: #02a9ce; text-transform: uppercase; font-weight: 700; text-decoration: none; }
+
+.halcyon-widget-about a:hover { text-decoration: underline; }
+
+.halcyon-widget-recent-post-title { font-size: 0.8em; margin: 0; }
+
+span.name { text-transform: uppercase; font-weight: 700; }
+
+#signup { background-color: #646464; display: block; width: 285px; margin: 0 auto; background-image: url('/wp-content/themes/halcyon-child/images/stamp.jpg'); background position: top left; background-repeat: no-repeat; padding: 20px;}
+
+#signup p {color: #fff; text-align: center;}
+
+span.thin {font-weight: 300;}
+
+#signup a {color: #fff; text-decoration: underline;}
+
+#signup label {display: none;}
+
+#signup input { display: inline block; width: 48%; padding-right: 2%; background-color: #02a9ce; color: #fff; text-transform: uppercase; border: none;}
+
+.updates { color: #fff; text-transform: uppercase; font-size: 1.1em; text-align: center; display: block; font-family: 'Open Sans', sans-serif; font-weight: 700; }
+
+input#s2email {width: 100%; background-color: #fff; color: #000; border: none;}
+
+#sm-row { width: 160px; margin: 10px auto; padding-bottom: 40px;}
+
+.social-icon { width: 45px; height: 45px;  margin-right: 10px; float: left;}
+
+.social-icon-last { width: 45px; height: 45px; float: left; }
+
+.halcyon-widget-social { display: none;}
+
+.footer-social { text-align: center; margin: -14px 0 0 0; float: left; }
+
+li#menu-item-9004 p { font-weight: 300; font-size: 1.5em; letter-spacing: 0;}
+
+aside#sidebar input, textarea { font-size: 14px; text-transform: uppercase}
+
+.search-submit-input { font-size: 12px!important; padding: 2% 6%; }
+
+
+/******** Categories ********/
+
+h2.categoryTitle { font-size: 1.5em; margin: 6px 0; text-transform: none; letter-spacing: 0px;}
+
+p.categoryCopy { font-size: .9em; }
+
+a.categoryButton { display: inline-block; text-transform: uppercase; border: 1px solid #000; font-size: .7em; padding: 10px 20px; color: #000; text-decoration: none; background-color: #fff; font-weight: 500;}
+
+a.categoryButton:hover { background-color: #e8e8e8;}
+
+
+
+/******** Quotes ********/
+
+.post-entry blockquote { font-family: Georgia, serif; font-size: 18px; font-style: italic; font-weight: 300; margin: 0.25em 0; padding: 0.25em 40px; line-height: 1.45; position: relative; color: #383838; border-left: none;}
+
+.post-entry blockquote:before { display: block; content: "\201C"; font-size: 80px; position: absolute; left: -20px; top: -20px; color: #7a7a7a;}
+
+.post-entry blockquote cite { color: #999999; font-size: 13px; display: block; margin-top: 5px;}
+
+.post-entry blockquote cite:before { content: "\2014 \2009";}  
+
+.post-entry .wp-caption-text,
+.post-entry .gallery-caption { font-size: 0.813rem; clear: both; padding-top: 7px;}
+
+
+
+
+/******** FAQ ********/
+
+#wpsm_accordion_9017 .ac_title_class {  font-weight: 400; letter-spacing: 0; color: #666}
+
+#wpsm_accordion_9017 .wpsm_panel-body { color: #666!important; }  
+
+
+
+
+/******** Header ********/
+
+.header-vcl {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.header-vcl img {
+	width: 90%;
+	height: auto;
+	float: right;
+}
+
+@media screen and (max-width: 1280px) {
+.header-vcl img {
+    width: 80%;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.header-vcl img {
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.header-vcl img {
+ display: none;
+ }
+}
+
+/******** Footer ********/
+
+.widget-row { margin: 40px 0; display: block; width: 100%; clear: both;}
+
+#footer-sidebar1 {width: 23%; padding-right: 2%; float: left; }
+
+#footer-sidebar2 {width: 23%; padding-right: 2%; float: left;  margin-top:30px;}
+
+#footer-sidebar3 {width: 23%; padding-right: 2%; float: left;  margin-top:30px;}
+
+#footer-sidebar4 {width: 23%; padding-right: 0; float: left;  margin-top:30px;}
+
+@media screen and (max-width: 960px) {
+#footer-sidebar1,
+#footer-sidebar2,
+#footer-sidebar3,
+#footer-sidebar4 {width: 100%; padding: 20px 2%; float: none; }	
+}
+
+.white-title {  font-size: 1.3em; display: block; color: #fff;}
+
+footer p { font-family: 'Open Sans', sans-serif; color: #fff; font-size: .9em}
+
+.footer-main { background: #000; padding: 20px 0 0; }
+
+footer .widget-title { color: #fff; }
+
+.footer-copyright p { margin: 0; clear: both; }
+
+.header-vcl-mobile {display: none; }
+
+@media only screen and (max-width: 1024px) {
+.featured-wrapper { margin-top: 110px; } 
+.header-vcl-mobile {display: block; clear: both; width: 340px; margin: 0 auto;}
+#content, .post-banner {margin-top: 123px}
+}
+
+.header { border-bottom: none!important;}
+
+/* Instagram */
+
+#sbi_load,
+#sb_instagram .sb_instagram_header { display: none; }
+
+/* About Pg */
+
+.post-entry .size-auto, .post-entry .size-full, .post-entry .size-large, .post-entry .size-medium, .post-entry .size-thumbnail {
+    margin-bottom: 20px;
+}
